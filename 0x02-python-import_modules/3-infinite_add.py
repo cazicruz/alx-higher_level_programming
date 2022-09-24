@@ -3,6 +3,7 @@
 if __name__ == "__main__":
     """Print sum of arguments."""
     import sys
+    sum = 0
 
     count = len(sys.argv) - 1
 
