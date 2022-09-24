@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    import hidden_4.pyc
+    from hidden_4 import *
 
     dicovers_1 = dir(hidden_4.pyc)
 
