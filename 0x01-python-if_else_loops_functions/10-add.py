@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 def add(a, b):
-    '''returns 
+    '''returns a + b'''
+	return(a+b)
