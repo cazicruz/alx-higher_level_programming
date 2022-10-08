@@ -23,6 +23,7 @@ listint_t *insert_node(listint_t **head, int number)
 	{
 		if (number > first->n && number < second->n)
 		{
+			newnode = malloc(sizeof(listint_t));
 			newnode->n = number;
 
 			first->next = newnode;
