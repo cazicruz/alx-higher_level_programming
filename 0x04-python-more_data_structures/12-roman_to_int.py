@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
-    if roman_string is None :
+    if roman_string is None:
         return 0
     num_list = []
     for i in roman_string:
@@ -22,8 +22,8 @@ def roman_to_int(roman_string):
             return 0
     roman_num = []
     for i, num in enumerate(num_list):
-        if i is not len(num_list) - 1 :
-            if num < num_list[i+1] :
+        if i is not len(num_list) - 1:
+            if num < num_list[i+1]:
                 roman_num.append(-num)
             else:
                 roman_num.append(num)
