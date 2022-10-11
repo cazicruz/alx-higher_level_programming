@@ -18,5 +18,10 @@ def roman_to_int(roman_string):
             num_list.append(500)
         elif i == 'M':
             num_list.append(1000)
-
-    return (sum(num_list))
+    roman_num = []
+    for i, num in enumerate(num_list):
+        if num < num_list[i+1]:
+            roman_num.append(-num)
+        else:
+            roman_num.append(num)
+    return (sum(roman_num))
