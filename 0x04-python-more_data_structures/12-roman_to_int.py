@@ -20,7 +20,9 @@ def roman_to_int(roman_string):
             num_list.append(1000)
     roman_num = []
     for i, num in enumerate(num_list):
-        if num < num_list[i+1]:
+        if i is 0:
+            continue
+        elif num_list[i-1] < num :
             roman_num.append(-num)
         else:
             roman_num.append(num)
