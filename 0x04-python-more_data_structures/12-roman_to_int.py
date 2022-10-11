@@ -2,6 +2,8 @@
 def roman_to_int(roman_string):
     if roman_string is None:
         return 0
+    elif isinstance(roman_string, int):
+        return 0
     num_list = []
     for i in roman_string:
         if i == 'I':
