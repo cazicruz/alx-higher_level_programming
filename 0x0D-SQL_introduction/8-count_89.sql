@@ -2,7 +2,6 @@
 -- New row:
 --       id = 89
 -- The database name will be passed as an argument o
-SELECT first_table
-    COUNT(id) AS 'items'
-FROM hbtn_0c_0
+SELECT COUNT(*) AS 'items'
+FROM first_table
 WHERE id = '89';
