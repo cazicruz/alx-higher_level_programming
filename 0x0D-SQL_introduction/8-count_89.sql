@@ -3,6 +3,6 @@
 --       id = 89
 -- The database name will be passed as an argument o
 SELECT first_table
-    COUNT(id)
+    COUNT(id) AS 'items'
 FROM hbtn_0c_0
 WHERE id = '89';
