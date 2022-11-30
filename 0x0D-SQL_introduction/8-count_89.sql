@@ -2,6 +2,7 @@
 -- New row:
 --       id = 89
 -- The database name will be passed as an argument o
-SELECT hbtn_0c_0 COUNT(*)
-FROM first_table
+SELECT first_table
+    COUNT(*)
+FROM hbtn_0c_0
 WHERE id = '89';
