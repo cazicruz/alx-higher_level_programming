@@ -1,2 +1,3 @@
 #!/bin/ksh
-SHOW DATABASES
+
+SHOW DATABASES;
