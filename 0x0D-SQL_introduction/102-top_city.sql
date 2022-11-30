@@ -1,6 +1,7 @@
--- Script that displays the max temperature of each state
--- Query to display the max temperature of each state
-SELECT state, MAX(value) AS max_temp
+-- Display city by temperature
+SELECT city, AVG(value) AS avg_temp
 FROM temperatures
-GROUP BY state
-ORDER BY state;
+WHERE month = 7 OR month = 8
+GROUP BY city
+ORDER BY avg_temp DESC
+LIMIT 3;
