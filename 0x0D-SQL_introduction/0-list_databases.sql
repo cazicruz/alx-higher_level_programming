@@ -1,0 +1,2 @@
+#!/bin/ksh
+SHOW DATABASES
