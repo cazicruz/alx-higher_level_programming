@@ -15,6 +15,6 @@ function printCharacters (characters, index) {
       if (index + 1 < characters.length) {
         printCharacters(characters, index + 1);
       }
-     }
+    }
   });
 }
